@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>3D Circular Card — Heroes</title>
+</head>
+<body>
+    <h1 class="carousel-title">CHOOSE YOUR HERO</h1>
+
+    <div class="carousel">
+
+        <div class="carousel-control-button left" title="Spin left">
+            <input type="radio" name="carousel-control-input" aria-label="Rotate left">
+        </div>
+        <div class="carousel-control-button right" title="Spin right">
+            <input type="radio" name="carousel-control-input" checked aria-label="Rotate right">
+        </div>
+
+        <div class="carousel-rotation-direction">
+
+            <ul class="carousel-item-wrapper" style="--_num-elements: 6">
+
+                <li class="carousel-item"
+                    style="--_index: 1; --_image-url: url('Assets/spiderman.jpg'); --_cut-url: url('Assets/Cutouts/spiderman.png'); --_glow: 235, 32, 48;">
+                    <a href="#" target="_blank" data-name="Spider-Man" data-tag="Friendly Neighborhood">Spider-Man</a>
+                    <span class="hero-cut"></span>
+                </li>
+
+                <li class="carousel-item"
+                    style="--_index: 2; --_image-url: url('Assets/batman.jpg'); --_cut-url: url('Assets/Cutouts/batman.png'); --_glow: 120, 144, 168;">
+                    <a href="#" target="_blank" data-name="Batman" data-tag="The Dark Knight">Batman</a>
+                    <span class="hero-cut"></span>
+                </li>
+
+                <li class="carousel-item"
+                    style="--_index: 3; --_image-url: url('Assets/blackpanther.jpg'); --_cut-url: url('Assets/Cutouts/blackpanther.png'); --_glow: 168, 64, 255;">
+                    <a href="#" target="_blank" data-name="Black Panther" data-tag="King of Wakanda">Black Panther</a>
+                    <span class="hero-cut"></span>
+                </li>
+
+                <li class="carousel-item"
+                    style="--_index: 4; --_image-url: url('Assets/ghostrider.jpg'); --_cut-url: url('Assets/Cutouts/ghostrider.png'); --_glow: 255, 132, 0;">
+                    <a href="#" target="_blank" data-name="Ghost Rider" data-tag="Spirit of Vengeance">Ghost Rider</a>
+                    <span class="hero-cut"></span>
+                </li>
+
+                <li class="carousel-item"
+                    style="--_index: 5; --_image-url: url('Assets/moonknight.jpg'); --_cut-url: url('Assets/Cutouts/moonknight.png'); --_glow: 235, 220, 180;">
+                    <a href="#" target="_blank" data-name="Moon Knight" data-tag="Fist of Khonshu">Moon Knight</a>
+                    <span class="hero-cut"></span>
+                </li>
+
+                <li class="carousel-item"
+                    style="--_index: 6; --_image-url: url('Assets/deadpool.jpg'); --_cut-url: url('Assets/Cutouts/deadpool.png'); --_glow: 226, 24, 56;">
+                    <a href="#" target="_blank" data-name="Deadpool" data-tag="Merc with a Mouth">Deadpool</a>
+                    <span class="hero-cut"></span>
+                </li>
+
+                <li class="carousel-ground"></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <p class="carousel-hint">Hover a card to focus &middot; use the side arrows to change spin direction</p>
+</body>
+</html>
